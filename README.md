@@ -52,8 +52,7 @@ Data was split into a training set and testing set for a total of 27438 rows. Th
 |  Histogram of Delay by Airline | Histogram displaying the distribution of depature delays by airline in the data set| The vast majority of flights have a delay of less than 60 minutes, with many flights also coming in ahead of time (negative delay). Delta was the airline where a majority of flights would actually show up ahead of schedule, and around one-third of flights show up slightly late. |
 | Boxplot of Delay by Airline | Boxplot displaying the distribution of depature delays by airline in the data set  |   Delta and Spirit tend to have the same number of flights leaving on time or early, determined by the min, 2nd quartile, and median. |
 | Distribution of Flight Delay Percentages | Pie chart displaying the distribution depature delays by airline in the data set   | Southwest has more delayed flights in a year, Spirit has the longest delays on average. |
-| Training Accuracy of the Model | Graph of training accuracy of model as the number of epochs increases | The training accuracy increases from around 0.50 to around 0.75 as as the number of epochs increases from 0 to 45. |
-| Training Loss of the Model | Graph of training loss of model as the number of epochs increases | The training loss decreases from around 2.4 to around 0.85 as the number of epochs increases from 0 to 45. |
+| Training Loss of the Model | Graph of training loss of model as the number of epochs increases | The training loss decreases from around 0.0363 to around 0.0149 as the number of epochs increases from 0 to 50. |
 
 ## REFERENCES
 [1] Bureau of Transportation Statistics, “Detailed Statistics Departures,” Bts.gov, 2017.
