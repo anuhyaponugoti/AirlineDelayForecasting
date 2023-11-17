@@ -43,7 +43,7 @@ Data (delta.csv, southwest.csv, spirit.csv) is stored in the in the Project3 fol
 | Delay Late Aircraft Arrival   | float  | The number of minutes that the flight was delayed due to the aircraft arriving late |
 
 
-Data was split into a training set and testing set for a total of 1500 rows. The training set contained 1050 rows and was used to train the model. The testing set contained 450 rows and was used to test the results of the model.
+Data was split into a training set and testing set for a total of 27438 rows. The training set contained 19,206 rows and was used to train the model. The testing set contained 8232 rows and was used to test the results of the model.
 
 ## FIGURES
 | **Figure**       | **Description**     | **Takeaways** |
@@ -55,29 +55,16 @@ Data was split into a training set and testing set for a total of 1500 rows. The
 | Training Loss of the Model | Graph of training loss of model as the number of epochs increases | The training loss decreases from around 2.4 to around 0.85 as the number of epochs increases from 0 to 45. |
 
 ## REFERENCES
-[1]	“The Importance of Robust Algorithms for Autonomous Vehicle’s,” www.linkedin.com. https://www.linkedin.com/pulse/importance-robust-algorithms-avs-a-ernesto-aguilar/  (accessed Oct. 08, 2023). 
+[1] Bureau of Transportation Statistics, “Detailed Statistics Departures,” Bts.gov, 2017.
+https://www.transtats.bts.gov/ONTIME/Departures.aspx
 
-[2]	“Guide on object detection & its use in self-driving cars,” Labellerr, Oct. 11, 2022. https://www.labellerr.com/blog/how-object-detection-works-in-self-driving-cars-using-deep-learning/ (accessed Oct. 08, 2023).
+[2] “Flight delays, cancellations could continue for a decade amid airline workforce shortage- CBS News,” www.cbsnews.com, Jul. 25, 2023.https://www.cbsnews.com/news/the-future-of-flying-more delays-more-cancellations-more-chaos/
 
-[3]	“Mapillary,” www.mapillary.com. https://www.mapillary.com/dataset/trafficsign
+[3] S. Saxena, “What is LSTM? Introduction to Long Short-Term Memory,” Analytics Vidhya, Mar. 16, 2021. https://www.analyticsvidhya.com/blog/2021/03/introduction-to-long-short-term-memory-lstm/#:~:text=LSTM%20(Long%20Short%2DTerm%20Memory
 
-[4]	“How To Build Powerful Keras Image Classification Models | Simplilearn,” Simplilearn.com. https://www.simplilearn.com/tutorials/deep-learning-tutorial/guide-to-building-powerful-keras-image-classification-models
+[4] B. Or, “The Exploding and Vanishing Gradients Problem in Time Series,” Medium, Oct.22, 2020. https://towardsdatascience.com/the-exploding-and-vanishing-gradients-problem-in-time-series-6b87d558d22
 
-[5]	“Python Project on Traffic Signs Recognition with 95% Accuracy using CNN & Keras,” DataFlair, Dec. 04, 2019. https://data-flair.training/blogs/python-project-traffic-signs-recognition/	
-
-[6]	“How to Evaluate An Image Classification Model | Clarifai Guide,” docs.clarifai.com. https://docs.clarifai.com/tutorials/how-to-evaluate-an-image-classification-model/
-
-[7]	“Image classification | TensorFlow Lite,” TensorFlow. https://www.tensorflow.org/lite/examples/image_classification/overview
-
-[8]	T. Gautam, “Create Your Own Image Classification Model Using Python and Keras,” Analytics Vidhya, Oct. 16, 2020. https://www.analyticsvidhya.com/blog/2020/10/create-image-classification-model-python-keras/#h-setting-up-our-image-data (accessed Oct. 15, 2023).
-
-‌[9]	“Standard photo print sizes chart,” PicMonkey. https://www.picmonkey.com/photo-editor/standard-photo-print-sizes (accessed Oct. 15, 2023). 
-
-[10]	“Traffic Signs Recognition using CNN and Keras in Python,” Analytics Vidhya, Dec. 21, 2021. https://www.analyticsvidhya.com/blog/2021/12/traffic-signs-recognition-using-cnn-and-keras-in-python/
-
-‌[11]	A. Gozhulovskyi, “Classification of Traffic Signs with LeNet-5 CNN,” Medium, Apr. 02, 2022. https://towardsdatascience.com/classification-of-traffic-signs-with-lenet-5-cnn-cb861289bd62 (accessed Oct. 15, 2023).
-‌
-[12]	“python - Loading all images using imread from a given folder,” Stack Overflow. https://stackoverflow.com/questions/30230592/loading-all-images-using-imread-from-a-given-folder 
+[5]	“Flight delays, cancellations could continue for a decade amid airline workforce shortage - CBS News,” www.cbsnews.com, Jul. 25, 2023. https://www.cbsnews.com/news/the-future-of-flying-more-delays-more-cancellations-more-chaos/ 
 
 
 ### Acknowledgements
@@ -88,8 +75,8 @@ Harsh Anand (TA)
 Group12
 
 ### Previous Works
-MI1: https://docs.google.com/document/d/1FZpMf64y3wwJ4Pmt0PROBRixD_NpVWIvQzaojZHrSHw/edit
+MI1: https://docs.google.com/document/d/1moaSiqyytJEJk_6fhaEO-GuXVGYF43t0tLwQ-K9HVQM/edit
 
-MI2: https://docs.google.com/document/d/157GVg0jQyZZi0fBuvD9dszffu_FfapXV5NTuHlAjz4Q/edit
+MI2: https://docs.google.com/document/d/1bKP0BxPHBmJ3jrv7_dIAYwWdX-xw9997Z_yWi2381MM/edit
 
 This project is licensed under the terms of the MIT license.
