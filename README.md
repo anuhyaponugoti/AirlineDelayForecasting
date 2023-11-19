@@ -41,7 +41,7 @@ Data (delta.csv, southwest.csv, spirit.csv) is stored in the in the Project3 fol
 | Delay Late Aircraft Arrival   | float  | The number of minutes that the flight was delayed due to the aircraft arriving late |
 
 
-Data was split into a training set and testing set for a total of 27438 rows. The training set contained 19,206 rows and was used to train the model. The testing set contained 8232 rows and was used to test the results of the model.
+Data was split into a training set and testing set for a total of 27,438 rows. The training set contained 19,206 rows and was used to train the model. The testing set contained 8,232 rows and was used to test the results of the model.
 
 ## FIGURES
 | **Figure**       | **Description**     | **Takeaways** |
