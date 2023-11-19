@@ -16,7 +16,6 @@ README.md - The current file.
 More details below.
 
 ## SRC
-DS 4002 Dataset/EDA - Code files containing our initial EDA and visualizations.
 Project3.ipynb - Jupyter Notebook for EDA with visuals and model training
 
 
@@ -53,6 +52,7 @@ Data was split into a training set and testing set for a total of 27438 rows. Th
 | Boxplot of Delay by Airline | Boxplot displaying the distribution of depature delays by airline in the data set  |   Delta and Spirit tend to have the same number of flights leaving on time or early, determined by the min, 2nd quartile, and median. |
 | Distribution of Flight Delay Percentages | Pie chart displaying the distribution depature delays by airline in the data set   | Southwest has more delayed flights in a year, Spirit has the longest delays on average. |
 | Training Loss of the Model | Graph of training loss of model as the number of epochs increases | The training loss decreases from around 0.0363 to around 0.0149 as the number of epochs increases from 0 to 50. |
+| Mean Predicted Delay by Carrier Code | Bar chart of the mean predicted delay for each airline (designated by carrier code) | Delta has the lowest predicted delay (it's expected to be early), followed by Southwest. Spirit has the highest predicted delay. |
 
 ## REFERENCES
 [1] Bureau of Transportation Statistics, “Detailed Statistics Departures,” Bts.gov, 2017.
